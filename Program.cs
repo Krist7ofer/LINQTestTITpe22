@@ -6,7 +6,7 @@
         {
             Console.WriteLine("LINQ Test TITpe22");
             Console.WriteLine("\n");
-
+            //Siin kutsusin meetodid välja
             SingleOrDefaultLINQ();
             SkipLINQ();
         }
@@ -30,7 +30,7 @@
             Console.WriteLine("Skip:");
             //Skip jätab esimesed 5 numbrit Numbers klassit vahele ja
             //jätkab kirjutama ülejäänud numbreid          
-            var skip = Numbers.numberList.Skip(5);
+            var skip = Numbers.numbrid.Skip(5);
          
             foreach (var value in skip)
             {               
